@@ -264,10 +264,10 @@ a {
 }
 
 .hero-title {
-    font-size: clamp(2.7rem, 7vw, 6rem);
+    font-size: clamp(2.7rem, 6.2vw, 5rem);
     font-weight: 900;
-    line-height: 1.04;
-    letter-spacing: -.07em;
+    line-height: 1.08;
+    letter-spacing: -.04em;
     color: var(--dark);
     margin-bottom: 1.4rem;
 }
@@ -1429,9 +1429,11 @@ a {
 }
 
 .brand-hero .hero-title {
-    max-width: 12.5ch;
+    max-width: 13.5ch;
     margin-bottom: 1.35rem;
-    font-size: clamp(2.85rem, 6vw, 5.9rem);
+    font-size: clamp(2.65rem, 5.6vw, 4.8rem);
+    line-height: 1.1;
+    letter-spacing: -.035em;
 }
 
 .brand-hero .hero-title span {
